@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "537359538443",
+    "project_id": "futnow-e5efd",
+    "storage_bucket": "futnow-e5efd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537359538443:android:82ed3ef6b8e401c1896a0e",
+        "android_client_info": {
+          "package_name": "com.example.futnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537359538443-9ogbt8preg09vevvphrupdjg3p3djaje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futnow",
+            "certificate_hash": "9300d2c1eb7cac1642aeaea2b977aac2a008d2c6"
+          }
+        },
+        {
+          "client_id": "537359538443-aceg9bk7kevftmf9d328h12d55l0nrdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMEPXIkcx6--e2Nl3khGQxK42YxPHG4cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537359538443-aceg9bk7kevftmf9d328h12d55l0nrdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

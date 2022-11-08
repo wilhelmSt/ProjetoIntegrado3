@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FutNow</string>
+    <string name="text_telacadastro">Não é membro? Cadastre-se</string>
+    <string name="login">Login</string>
+    <string name="senhalogin">Senha</string>
+    <string name="emaillogin">Email</string>
+    <string name="name">Name</string>
+    <string name="emailcadastro">Email</string>
+    <string name="senhacadastro">Senha</string>
+    <string name="repetir_a_senha">Repetir a senha</string>
+    <string name="cpf">CPF</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
