@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">FutNow</string>
-    <string name="text_telacadastro">Não é membro? Cadastre-se</string>
+    <string name="text_telacadastro">Não é membro? Cadastra-se</string>
     <string name="login">Login</string>
     <string name="senhalogin">Senha</string>
     <string name="emaillogin">Email</string>

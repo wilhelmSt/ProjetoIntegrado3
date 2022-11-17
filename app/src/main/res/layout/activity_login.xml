@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@color/background"
-android:orientation="vertical"
-tools:context=".ForgotPassword">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -17,19 +17,8 @@ tools:context=".ForgotPassword">
         android:layout_marginStart="20dp"
         app:srcCompat="@drawable/fitnow" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:gravity="center"
-        android:text="Enviar email para recuperar sua senha"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
     <EditText
-        android:id="@+id/editTextEmailRecuperarSenha"
+        android:id="@+id/editTextTextEmailLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -40,14 +29,33 @@ tools:context=".ForgotPassword">
         android:drawableLeft="@drawable/ic_email"
         android:drawablePadding="30dp"
         android:ems="10"
-        android:inputType="textWebEmailAddress"
+        android:inputType="textPersonName"
         android:padding="17dp"
-        android:hint="@string/emaillogin"
+        android:text="@string/emaillogin"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextTextSenhaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background_input"
+
+        android:drawableLeft="@drawable/ic_key"
+        android:drawablePadding="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="17dp"
+        android:text="@string/senhalogin"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <Button
-        android:id="@+id/btnRecuperarSenha"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -55,7 +63,19 @@ tools:context=".ForgotPassword">
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:background="@drawable/background_button"
-        android:text="Recupere sua Senha" />
+        android:text="@string/login" />
 
+    <TextView
+        android:id="@+id/cadastrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_telacadastro"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        />
 
 </LinearLayout>
