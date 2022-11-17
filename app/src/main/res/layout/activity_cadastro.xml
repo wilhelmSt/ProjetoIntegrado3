@@ -12,13 +12,13 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
         app:srcCompat="@drawable/fitnow" />
 
     <EditText
-        android:id="@+id/editTextTextNome"
+        android:id="@+id/editTextNomeCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -30,12 +30,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="15dp"
-        android:text="@string/name"
+        android:hint="@string/name"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editTextTextEmailCadastro"
+        android:id="@+id/editTextEmailCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -47,12 +47,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="15dp"
-        android:text="@string/emailcadastro"
+        android:hint="@string/emailcadastro"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editTextTextSenhaCadastro"
+        android:id="@+id/editTextSenhaCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -64,12 +64,12 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="15dp"
-        android:text="@string/senhacadastro"
+        android:hint="@string/senhacadastro"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editTextTextRepetirASenha"
+        android:id="@+id/editTextRSenhaCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -81,34 +81,34 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="15dp"
-        android:text="@string/repetir_a_senha"
+        android:hint="@string/repetir_a_senha"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editTextTextCPF"
+        android:id="@+id/editTextCPFCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/background_input"
-        android:drawableLeft="@drawable/ic_local_atm"
+        android:drawableLeft="@drawable/ic_outline_supervisor_account_24"
         android:drawablePadding="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="15dp"
-        android:text="@string/cpf"
+        android:hint="@string/cpf"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <Button
-        android:id="@+id/cadastro"
+        android:id="@+id/btnCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
         android:background="@drawable/background_button"
         android:text="@string/cadastrar" />
 

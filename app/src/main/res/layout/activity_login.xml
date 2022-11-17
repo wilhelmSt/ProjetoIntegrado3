@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/fitnow" />
 
     <EditText
-        android:id="@+id/editTextTextEmailLogin"
+        android:id="@+id/editTextEmailLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -29,14 +29,14 @@
         android:drawableLeft="@drawable/ic_email"
         android:drawablePadding="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textWebEmailAddress"
         android:padding="17dp"
-        android:text="@string/emaillogin"
+        android:hint="@string/emaillogin"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/editTextTextSenhaLogin"
+        android:id="@+id/editTextSenhaLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -44,18 +44,17 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/background_input"
-
         android:drawableLeft="@drawable/ic_key"
         android:drawablePadding="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textWebPassword"
         android:padding="17dp"
-        android:text="@string/senhalogin"
+        android:hint="Password"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
@@ -77,5 +76,17 @@
         android:layout_marginStart="20dp"
         android:gravity="center"
         />
+
+    <TextView
+        android:id="@+id/esqueceuSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="Esqueceu a Senha?"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
 
 </LinearLayout>

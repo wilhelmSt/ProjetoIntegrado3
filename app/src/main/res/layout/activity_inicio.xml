@@ -10,14 +10,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/component_home"
-        android:padding="5dp"
+        android:drawableEnd="@drawable/ic_baseline_person_24"
         android:drawablePadding="30dp"
+        android:padding="5dp"
         android:text="FutNow"
         android:textSize="20dp"
-        android:drawableEnd="@drawable/ic_baseline_person_24"
         tools:layout_editor_absoluteX="-3dp"
         tools:layout_editor_absoluteY="4dp" />
 
@@ -29,13 +29,23 @@
         android:drawablePadding="0dp"
         android:background="@drawable/background_pesquisar"
         android:drawableLeft="@drawable/ic_search"
-
         android:inputType="textPersonName"
         android:layout_margin="15dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginStart="0dp"
         android:padding="13dp"
+        android:hint="Pesquisar"
 
-        android:text="Pesquisar" />
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="13dp"
+        tools:listitem="@layout/activity_arena"
+
+        />
 </LinearLayout>
